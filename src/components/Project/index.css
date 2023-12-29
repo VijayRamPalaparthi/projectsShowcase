@@ -1,0 +1,159 @@
+.bg-container {
+  width: 70%;
+  height: 100vh;
+  background-color: #f1f5f9;
+  margin: auto;
+  overflow: auto;
+}
+.header-container {
+  background-color: #cbd5e1;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+  margin-left: 15px;
+}
+.body-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.select {
+  height: 40px;
+  padding: 10px;
+  width: 400px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.option {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+.list-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #cbd5e1;
+  background-color: #ffffff;
+}
+.card-image {
+  width: 200px;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-name {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #475569;
+  margin-left: 15px;
+}
+.loader-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.failure-image {
+  width: 400px;
+  height: 200px;
+}
+.retry {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #328af2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+}
+.fail-heading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #475569;
+}
+.desc {
+  font-family: 'roboto';
+  color: #475569;
+  font-size: 15px;
+  text-align: center;
+}
+@media (max-width: 765px) {
+  .bg-container {
+    width: 100vw;
+  }
+  .select {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+  }
+  .option {
+    font-size: 12px;
+  }
+  .list-container {
+    justify-content: space-between;
+  }
+  .card {
+    width: 140px;
+    margin-right: 0px;
+  }
+  .card-image {
+    width: 140px;
+    height: 100px;
+  }
+  .card-name {
+    font-size: 10px;
+  }
+  .logo {
+    height: 30px;
+    width: 70px;
+  }
+  .header-container {
+    padding: 10px;
+  }
+  .failure-container {
+    width: 300px;
+    height: 400px;
+  }
+  .failure-image {
+    width: 150px;
+    height: 100px;
+  }
+  .fail-heading {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 10px;
+  }
+  .retry {
+    width: 70px;
+    height: 30px;
+  }
+}
